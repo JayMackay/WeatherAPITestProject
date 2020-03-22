@@ -57,15 +57,17 @@
       <HintPath>packages\RestSharp.106.10.1\lib\net452\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigReader.cs" />
+    <Compile Include="ServiceLayer\CurrentWeatherService.cs" />
     <Compile Include="ServiceLayer\DataHandling\CurrentWeatherDTO.cs" />
     <Compile Include="ServiceLayer\DataHandling\CurrentWeatherModel.cs" />
     <Compile Include="ServiceLayer\HTTPManager\WeatherCallManager.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Tests\WeatherRequestTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
