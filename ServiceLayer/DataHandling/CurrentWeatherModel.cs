@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace OpenWeatherAPITestProject.ServiceLayer.DataHandling
 {
 
-    public class Rootobject
+    public class CurrentWeatherRootObject
     {
         public Coord coord { get; set; }
         public Weather[] weather { get; set; }
